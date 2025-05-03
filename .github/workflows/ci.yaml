@@ -1,4 +1,4 @@
-# CI for Product Catalog Service SK Rohit
+# CI for Product Catalog Service SK Rohit 
 
 name: product-catalog-ci
 
@@ -95,7 +95,7 @@ jobs:
         - name: Commit and push changes
           run: |
             git config --global user.email "skr434546@gmail.com"
-            git config --global user.name "Sk Rohit"
+            git config --global user.name "skr0hit"
             git add kubernetes/productcatalog/deploy.yaml
             git commit -m "[CI]: Update product catalog image tag"
             git push origin HEAD:main -f
